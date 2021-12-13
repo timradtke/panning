@@ -1,0 +1,17 @@
+Package: panning
+Title: Robust Median Filter Forecast
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tim", "Radtke", , "tim@timradtke.net", role = c("aut", "cre"))
+Description: Forecast univariate monthly timeseries using a model robust against
+   noise and shifts at year change.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Import: 
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    magrittr, dplyr, tidyr, gamlss, gamlss.dist, checkmate
